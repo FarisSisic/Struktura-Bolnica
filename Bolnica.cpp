@@ -78,7 +78,7 @@ int main(){
 	int dan;
 	cout << "Unesite dan za koji zelite provjeriti cijenu: ";
 	cin >> dan;
-	float cijena_dana = cijena(odjel, dan);
+	float cijena_dana = cijena(p.odjel, dan);
 	cout << "Cijena " << dan << ". dana iznosi: " << cijena_dana << endl;
 	cout << endl;
 	system("PAUSE");
